@@ -1,0 +1,17 @@
+services:
+  api-service:
+    image: cocktail-microservice
+    container_name: cocktail-microservice
+    restart: always
+    build: ./microservice/
+    volumes:
+      - ./microservice/:/usr/src/app/
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+    ports:
+      - 5000:5000
+      - 587:587
+      - 25:25
+    environment:
+      PORT: 5000
+      FLASK_DEBUG: 1

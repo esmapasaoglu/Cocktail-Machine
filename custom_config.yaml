@@ -1,0 +1,76 @@
+EXP_MAKER_FACTOR: 1.0
+EXP_MAKER_UNIT: ml
+LED_BRIGHTNESS: 100
+LED_COUNT: 24
+LED_DEFAULT_ON: false
+LED_IS_WS: true
+LED_NUMBER_RINGS: 1
+LED_PINS: []
+MAKER_ADD_SINGLE_INGREDIENT: false
+MAKER_ALCOHOL_FACTOR: 100
+MAKER_CHECK_BOTTLE: true
+MAKER_CHECK_INTERNET: true
+MAKER_CLEAN_TIME: 20
+MAKER_MAX_HAND_INGREDIENTS: 3
+MAKER_NAME: GOLABS COCKTAIL MACHINE
+MAKER_NUMBER_BOTTLES: 8
+MAKER_PINS_INVERTED: true
+MAKER_PREPARE_VOLUME:
+- 350
+MAKER_PUMP_REVERSION: false
+MAKER_REVERSION_PIN: 0
+MAKER_SEARCH_UPDATES: false
+MAKER_SIMULTANEOUSLY_PUMPS: 16
+MAKER_THEME: default
+MAKER_USE_RECIPE_VOLUME: false
+MICROSERVICE_ACTIVE: true
+MICROSERVICE_BASE_URL: http://127.0.0.1:5000
+PUMP_CONFIG:
+- pin: 14
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 15
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 18
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 23
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 24
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 25
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 8
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 7
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 17
+  tube_volume: 0
+  volume_flow: 30.0
+- pin: 27
+  tube_volume: 0
+  volume_flow: 30.0
+RFID_READER: 'No'
+TEAMS_ACTIVE: false
+TEAM_API_URL: http://127.0.0.1:8080
+TEAM_BUTTON_NAMES:
+- Team 1
+- Team 2
+UI_DEVENVIRONMENT: true
+UI_HEIGHT: 800
+UI_LANGUAGE: en
+UI_LOCKED_TABS:
+- false
+- false
+- false
+UI_MAKER_PASSWORD: 1234
+UI_MASTERPASSWORD: 0
+UI_NOTIFICATION_EMAIL: ''
+UI_PICTURE_SIZE: 240
+UI_WIDTH: 800
